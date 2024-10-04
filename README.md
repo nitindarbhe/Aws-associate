@@ -560,7 +560,7 @@ Used through other AWS services for health and performance monitoring, log manag
     - 99.9% = 8.77 hours /year downtime
     - 99.999% = 5.26 minutes /year downtime
 - User disruption, such as re-login, is okay
-- If a server goes down, but another is ready on standby, users may notice small disruptions, but thats okay
+- If a server goes down, but another is ready on standby, users may notice small disruptions, but that okay
 - Often require redundant service or architecture to achieve the agreed SL
 
 ### Fault-Tolerance (FT)
@@ -571,7 +571,7 @@ Operate through faults.***
 - High availability is not enough
 - If a server goes down, disruption is not okay
 - The system must be able to tolerate the failure
-    - Levels of redundancy and system of components which can route around failures
+    - Levels of redundancy and system of components that can route around failures
 - Implementing FT when you need HA is expensive and is harder to implement
 - Implementing HA when you need FT can be a disaster
 
